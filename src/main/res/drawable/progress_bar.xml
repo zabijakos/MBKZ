@@ -1,0 +1,10 @@
+<!-- res/drawable/custom_progress_bar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Texturované pozadí -->
+    <item>
+        <bitmap
+            android:src="@drawable/progress_small"
+
+            android:tileMode="repeat" />
+    </item>
+</layer-list>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <ImageView
+        android:id="@+id/main_header"
+        android:layout_width="327dp"
+        android:layout_height="159dp"
+        android:background="@null"
+        android:contentDescription="@string/speakable_text"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:scaleType="fitCenter"
+        android:src="@drawable/konec"
+        app:layout_constraintBottom_toTopOf="@+id/button_restart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_menu"
+        android:layout_width="226dp"
+        android:layout_height="50dp"
+        android:background="@drawable/deska"
+        android:fontFamily="@font/dwpica_regular"
+        android:text="@string/back_to_menu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_restart"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_restart"
+        android:layout_width="226dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/deska"
+        android:fontFamily="@font/dwpica_regular"
+        android:text="@string/restart"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_menu"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pickPairView"
+        android:layout_width="208dp"
+        android:layout_height="147dp"
+        android:background="@drawable/deska"
+        android:fontFamily="@font/dwpica_regular"
+        android:minWidth="208dp"
+        android:minHeight="147dp"
+        android:paddingStart="20sp"
+        android:paddingTop="15sp"
+        android:paddingEnd="25sp"
+        android:text="@string/CustomQ"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="130dp"
+        android:layout_height="139dp"
+        android:background="@drawable/score"
+        android:focusable="false"
+        android:ems="4"
+        android:textColor="@color/black"
+        android:fontFamily="@font/dwpica_regular"
+        android:inputType="number"
+        android:paddingTop="40dp"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pickPairView"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button_up"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/up"
+        app:layout_constraintBottom_toBottomOf="@+id/button_down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_down"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button_confirm"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/confirm"
+        app:layout_constraintEnd_toStartOf="@id/button_up"
+        app:layout_constraintTop_toTopOf="@id/button_down"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/button_down" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button_down"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/down"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

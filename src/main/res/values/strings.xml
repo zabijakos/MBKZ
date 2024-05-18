@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pexeso</string>
+    <string name="game_start">Spustit Hru</string>
+    <string name="leaderboard">Rekordy</string>
+    <string name="setting">Nastavení</string>
+    <string name="easy">Jednoduchá</string>
+    <string name="medium">Střední</string>
+    <string name="hard">Těžká</string>
+    <string name="custom">Vlastní</string>
+    <string name="speakable_text">Logo hry</string>
+    <string name="moves">Tahy: </string>
+    <string name="restart">Hrát znovu</string>
+    <string name="back_to_menu">Návrat do menu</string>
+    <string name="stats_restart">Resetovat Statistiky</string>
+    <string name="hint">Nápověda</string>
+    <string name="stats_restartQ">Opravdu si přejete vymazat všechny statistiky?</string>
+    <string name="leaveQ">Opravdu chcete opustit hru před jejím dohráním?</string>
+    <string name="CustomQ">Zvolte počet hledaných párů</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+
+</resources>
